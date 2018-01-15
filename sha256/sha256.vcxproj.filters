@@ -20,16 +20,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="sha256.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Xsd Include="licence.txt">
-      <Filter>Resource Files</Filter>
-    </Xsd>
+    <None Include="licence.txt" />
   </ItemGroup>
 </Project>
